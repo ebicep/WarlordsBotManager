@@ -22,6 +22,7 @@ import net.dv8tion.jda.api.entities.MessageEmbed;
 import net.dv8tion.jda.api.entities.TextChannel;
 import net.dv8tion.jda.api.requests.GatewayIntent;
 import org.bukkit.Bukkit;
+import org.bukkit.ChatColor;
 import org.bukkit.configuration.file.YamlConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
@@ -123,6 +124,8 @@ public class WarlordsBotManager extends JavaPlugin {
                 counter++;
             }
         }.runTaskTimer(WarlordsBotManager.getWarlordsBotManager(), 100, 20);
+
+        getServer().getConsoleSender().sendMessage(ChatColor.GREEN + "[WarlordsBotManager] Plugin is enabled");
     }
 
     @Override
@@ -136,6 +139,8 @@ public class WarlordsBotManager extends JavaPlugin {
         } catch (Exception e) {
             e.printStackTrace();
         }
+
+        getServer().getConsoleSender().sendMessage(ChatColor.RED + "[WarlordsBotManager] Plugin is disabled");
     }
 
     public static WarlordsBotManager getWarlordsBotManager() {

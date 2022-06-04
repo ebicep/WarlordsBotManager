@@ -70,8 +70,9 @@ public class WarlordsBotManager extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new BotListener(), this);
 
         try {
-            YamlConfiguration config = YamlConfiguration.loadConfiguration(new File(this.getDataFolder(), "keys.yml"));
+            YamlConfiguration config = YamlConfiguration.loadConfiguration(new File(Bukkit.getPluginManager().getPlugin("Warlords").getDataFolder(), "keys.yml"));
             botToken = config.getString("botToken");
+            System.out.println("[WarlordsBotManager] Found bot token");
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -84,7 +85,8 @@ public class WarlordsBotManager extends JavaPlugin {
                     .addEventListeners(new BotListener(), new QueueListener())
                     .build();
         } catch (LoginException e) {
-            throw new RuntimeException(e);
+            e.printStackTrace();
+            return;
         }
 
         task = new BukkitRunnable() {

@@ -1,6 +1,6 @@
-package com.ebicep.warlordsqueuemanager.queuesystem;
+package com.ebicep.warlordsbotmanager.queuesystem;
 
-import com.ebicep.warlordsqueuemanager.WarlordsBotManager;
+import com.ebicep.warlordsbotmanager.WarlordsBotManager;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.Message;
 import net.dv8tion.jda.api.entities.MessageEmbed;

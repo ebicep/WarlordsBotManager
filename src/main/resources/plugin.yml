@@ -1,6 +1,6 @@
 name: WarlordsBotManager
 version: ${project.version}
-main: com.ebicep.warlordsWarlordsBotManager.WarlordsBotManager
+main: com.ebicep.warlordsbotmanager.WarlordsBotManager
 softdepend:
   - Warlords
 commands:

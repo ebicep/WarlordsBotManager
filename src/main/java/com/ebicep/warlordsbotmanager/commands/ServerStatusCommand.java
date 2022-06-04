@@ -1,6 +1,6 @@
-package com.ebicep.warlordsqueuemanager.commands;
+package com.ebicep.warlordsbotmanager.commands;
 
-import com.ebicep.warlordsqueuemanager.WarlordsBotManager;
+import com.ebicep.warlordsbotmanager.WarlordsBotManager;
 import org.bukkit.ChatColor;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;

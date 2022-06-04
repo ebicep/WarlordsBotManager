@@ -1,9 +1,9 @@
-package com.ebicep.warlordsqueuemanager.commands;
+package com.ebicep.warlordsbotmanager.commands;
 
 import com.ebicep.warlords.Warlords;
 import com.ebicep.warlords.database.DatabaseManager;
 import com.ebicep.warlords.database.repositories.player.pojos.general.DatabasePlayer;
-import com.ebicep.warlordsqueuemanager.WarlordsBotManager;
+import com.ebicep.warlordsbotmanager.WarlordsBotManager;
 import net.dv8tion.jda.api.EmbedBuilder;
 import org.apache.commons.collections4.BidiMap;
 import org.apache.commons.collections4.bidimap.DualHashBidiMap;

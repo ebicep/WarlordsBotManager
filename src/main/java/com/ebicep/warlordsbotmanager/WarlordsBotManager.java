@@ -1,4 +1,4 @@
-package com.ebicep.warlordsqueuemanager;
+package com.ebicep.warlordsbotmanager;
 
 import com.ebicep.warlords.Warlords;
 import com.ebicep.warlords.game.Game;
@@ -7,12 +7,12 @@ import com.ebicep.warlords.game.option.WinAfterTimeoutOption;
 import com.ebicep.warlords.game.state.PlayingState;
 import com.ebicep.warlords.game.state.PreLobbyState;
 import com.ebicep.warlords.util.warlords.Utils;
+import com.ebicep.warlordsbotmanager.commands.DiscordCommand;
+import com.ebicep.warlordsbotmanager.commands.ServerStatusCommand;
+import com.ebicep.warlordsbotmanager.queuesystem.QueueCommand;
+import com.ebicep.warlordsbotmanager.queuesystem.QueueListener;
+import com.ebicep.warlordsbotmanager.queuesystem.QueueManager;
 import com.ebicep.warlordspartymanager.WarlordsPartyManager;
-import com.ebicep.warlordsqueuemanager.commands.DiscordCommand;
-import com.ebicep.warlordsqueuemanager.commands.ServerStatusCommand;
-import com.ebicep.warlordsqueuemanager.queuesystem.QueueCommand;
-import com.ebicep.warlordsqueuemanager.queuesystem.QueueListener;
-import com.ebicep.warlordsqueuemanager.queuesystem.QueueManager;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.JDA;
 import net.dv8tion.jda.api.JDABuilder;

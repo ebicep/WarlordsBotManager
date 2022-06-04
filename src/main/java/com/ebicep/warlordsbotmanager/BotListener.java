@@ -1,4 +1,4 @@
-package com.ebicep.warlordsqueuemanager;
+package com.ebicep.warlordsbotmanager;
 
 import com.ebicep.warlords.Warlords;
 import com.ebicep.warlords.database.DatabaseManager;
@@ -8,8 +8,8 @@ import com.ebicep.warlords.player.Specializations;
 import com.ebicep.warlords.util.bukkit.ItemBuilder;
 import com.ebicep.warlords.util.bukkit.PacketUtils;
 import com.ebicep.warlords.util.warlords.Utils;
+import com.ebicep.warlordsbotmanager.commands.DiscordCommand;
 import com.ebicep.warlordspartymanager.WarlordsPartyManager;
-import com.ebicep.warlordsqueuemanager.commands.DiscordCommand;
 import net.dv8tion.jda.api.EmbedBuilder;
 import net.dv8tion.jda.api.entities.*;
 import net.dv8tion.jda.api.events.message.MessageReceivedEvent;

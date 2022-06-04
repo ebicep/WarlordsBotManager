@@ -1,4 +1,4 @@
-package com.ebicep.warlordsqueuemanager;
+package com.ebicep.warlordsbotmanager;
 
 import com.ebicep.warlords.database.DatabaseManager;
 import com.ebicep.warlordspartymanager.WarlordsPartyManager;

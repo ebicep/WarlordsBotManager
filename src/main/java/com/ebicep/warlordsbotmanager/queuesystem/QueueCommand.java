@@ -1,7 +1,7 @@
-package com.ebicep.warlordsqueuemanager.queuesystem;
+package com.ebicep.warlordsbotmanager.queuesystem;
 
+import com.ebicep.warlordsbotmanager.WarlordsBotManager;
 import com.ebicep.warlordspartymanager.WarlordsPartyManager;
-import com.ebicep.warlordsqueuemanager.WarlordsBotManager;
 import org.apache.commons.lang.math.NumberUtils;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
